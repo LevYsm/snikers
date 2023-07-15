@@ -1,0 +1,165 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+min-height:100vh; 
+background: linear-gradient(45deg, royalblue 65% , darkorange 35%);
+font-family: 'ZCOOL KuaiLe', sans-serif;
+
+}
+
+body:hover{
+background: linear-gradient(45deg,darkorange  65% , royalblue 35%);
+}
+
+html{
+cursor: url(https://www.pngall.com/wp-content/uploads/5/Heels-Transparent.png), auto ;
+
+}
+main{
+width: 50%;
+margin: 150px auto;
+}
+
+article{
+background-color: white;
+border-radius: 16px;
+padding: 28px 32px;
+box-shadow:10px 11px darkorange,20px 21px royalblue ;
+}
+
+.sn{
+font-size: 64px;
+font-weight: 500;
+color: darkorange;
+letter-spacing: 2px ;
+text-shadow:3px 4px royalblue,4px 5px darkorange;
+}
+.best{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkorange;
+    text-shadow:2px 2px 1px royalblue;
+    padding: 8px ;
+    margin: 24px 0px ;
+}
+
+.sn::selection{
+color: rgb(255, 183, 0);
+}
+
+section{
+margin-top: 48px;
+background-color: rgb(255, 255, 255);
+padding: 12px 32px;
+border-radius: 16px;
+box-shadow:10px 11px darkorange,20px 21px royalblue ;
+}
+
+
+.stile-snekers{
+display: flex;
+justify-content: space-around;
+flex-wrap:wrap;
+gap: 20px;
+}
+
+
+.bottom{
+    width: 90%;
+    height: 50px;
+    border: darkorange 1px solid;
+    background-color:darkorange;
+    border-radius: 15px;   
+    margin: auto;
+    display: block;
+    text-shadow:2px 1px white ;
+    color: royalblue;
+    transition: 2s;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.bottom:hover{
+    border: royalblue 1px solid;
+    background-color:royalblue; 
+    color:darkorange ;  
+}
+
+.snekers-contener{
+width: 280px;
+border-radius: 12px;
+height: 550px;
+box-shadow: 12px 12px royalblue, 0 0 16px rgb(171, 199, 237) ;
+margin-bottom: 32px;
+
+}
+
+
+.name{
+    text-shadow:2px 1px royalblue;
+    color: royalblue;
+    font-weight: 24px;
+    font-size: 24px;
+    padding-left: 16px;
+}
+
+.price{
+
+    padding-left: 16px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-shadow:2px 1px royalblue;
+}
+
+
+.img-of-snikers1{
+background-size: cover !important;
+background-position: cover !important;
+background-repeat: no-repeat !important;
+margin-bottom:8px; 
+height: 70%;
+border-radius: 12px 12px 0 0;
+background-image: url(https://api.meet-market.ru/storage/quill/62ceabb6c7c2b.JPG);
+
+}
+
+
+
+.img-of-snikers2{
+background-size: cover !important;
+background-position: cover !important;
+background-repeat: no-repeat !important;
+margin-bottom:8px; 
+height: 70%;
+border-radius: 12px 12px 0 0;
+background-image: url(https://api.meet-market.ru/storage/quill/62cea7ec93125.JPG);
+}
+
+
+
+.img-of-snikers3{
+background-size: cover !important;
+background-position: cover !important;
+background-repeat: no-repeat !important;
+margin-bottom:8px; 
+height: 70%;
+border-radius: 12px 12px 0 0;
+background-image: url(https://api.meet-market.ru/storage/quill/62cea9b1669d9.JPG);
+}
+
+.img-of-snikers4 {
+    background-size: cover !important;
+    background-position: cover !important;
+    background-repeat: no-repeat !important;
+    margin-bottom:8px; 
+    height: 70%;
+    border-radius: 12px 12px 0 0;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2022/9/RB/FW/SV/23328273/whatsapp-image-2022-09-03-at-12-55-30-500x500.jpeg); 
+}
+ 
